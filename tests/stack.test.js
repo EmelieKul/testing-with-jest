@@ -19,6 +19,6 @@ test('peek on stack with two or more elements returns the top element', () => {
 });
 
 test('POP should be defined (str)', () => {
-  expect(stack.pop()).toBeUndefined();
+  expect(stack.pop()).toBeDefined();
 
 });
